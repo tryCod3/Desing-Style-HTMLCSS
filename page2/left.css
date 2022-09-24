@@ -1,0 +1,116 @@
+.design2__container {
+	display: flex;
+	margin-top: 30px;
+}
+
+.design2__leftSide {
+	flex-basis: 15%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 600px;
+	transform: translateY(35px);
+	margin-left: 20px;
+}
+
+.leftSide__header {
+}
+
+.leftSide__header__part1 {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.leftSide__header__part1 .part1__content {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.part1__content .title1 {
+	color: black;
+}
+
+.part1__content .title2 {
+	font-size: 20px;
+	color: black;
+}
+
+.leftSide__header__part1 .part1__bg {
+	width: 100%;
+	height: 20px;
+}
+
+.leftSide__actions {
+	margin-bottom: 30px;
+}
+
+.leftSide__actions .leftSide__actions__boxlg {
+	min-height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 0px;
+}
+
+.leftSide__actions .leftSide__action__boxsm {
+	display: flex;
+	justify-content: space-between;
+}
+
+.leftSide__actions .leftSide__actions__boxlg .leftSide__action__title {
+}
+
+.leftSide__actions .leftSide__action__boxsm .boxsm__left,
+.leftSide__actions .leftSide__action__boxsm .boxsm__right {
+	width: 50%;
+	margin-left: 0px;
+	margin-top: 8px;
+	text-align: center;
+}
+
+.leftSide__actions .leftSide__action__boxsm .boxsm__right {
+	margin-right: 0px;
+	margin-left: 8px;
+}
+
+.leftSide__header__part3 {
+	min-height: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+.leftSide__header__part3 .part3__titleSearch {
+	text-align: center;
+	margin: 5px;
+}
+
+.leftSide__header__part3 .part3__search {
+	background: white;
+	display: flex;
+	margin: 0px 30px;
+}
+
+.leftSide__header__part3 .part3__search .part3__search__input {
+	flex: 1;
+}
+
+.leftSide__header__part3 .part3__search .part3__search__button {
+	width: 20px;
+	height: 20px;
+	background: #333;
+	margin-left: 5px;
+	padding: 1.2px;
+}
+
+.leftSide__header__part3 .part3__search .part3__search__button img {
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+
+.leftSide__footer .leftSide__actions {
+	margin-bottom: 0px;
+}
