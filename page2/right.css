@@ -6,7 +6,7 @@
 
 .design2__rightSide {
 	flex: 1;
-	padding: 0px 20px;
+	padding: 0px 10px;
 }
 
 .design2__rightSide .header {
@@ -21,7 +21,7 @@
 
 .layout-box {
 	display: grid;
-	grid-template-columns: [column1-start] 16% [column1-end] 23% [column2-end] auto [last-line];
+	grid-template-columns: [column1-start] 16% [column1-end] 20% [column2-end] auto [last-line];
 	gap: 10px;
 	padding: 7px;
 }
@@ -76,6 +76,7 @@
 .rightSide__dominos1 .domino {
 	text-align: center;
 	height: 27px;
+	font-size: 11.5px;
 }
 
 .rightSide__boxs1 {

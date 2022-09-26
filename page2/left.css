@@ -1,14 +1,11 @@
 .design2__container {
-	display: flex;
+	display: grid;
 	margin-top: 30px;
+	grid-template-columns: [col1-start] 25% [col1-end] auto [last-line];
+	grid-template-rows: [row1-start] 1fr [row1-end] auto [row2-end] auto [last-line];
 }
 
 .design2__leftSide {
-	flex-basis: 15%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: 600px;
 	transform: translateY(35px);
 	margin-left: 20px;
 }
@@ -109,6 +106,11 @@
 	width: 100%;
 	height: 100%;
 	color: white;
+}
+
+.leftSide__footer {
+	grid-column-start: col1-start;
+	grid-row-start: row2-start;
 }
 
 .leftSide__footer .leftSide__actions {
